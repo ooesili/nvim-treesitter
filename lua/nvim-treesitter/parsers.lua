@@ -1068,6 +1068,26 @@ list.proto = {
   filetype = "proto",
 }
 
+list.wast = {
+  install_info = {
+    url = "https://github.com/wasm-lsp/tree-sitter-wasm",
+    branch = "main",
+    files = { "src/parser.c" },
+    location = "tree-sitter-wast/wast",
+  },
+  maintainers = { "@ooesili" },
+}
+
+list.wat = {
+  install_info = {
+    url = "https://github.com/wasm-lsp/tree-sitter-wasm",
+    branch = "main",
+    files = { "src/parser.c" },
+    location = "tree-sitter-wat/wat",
+  },
+  maintainers = { "@ooesili" },
+}
+
 local M = {
   list = list,
   filetype_to_parsername = filetype_to_parsername,

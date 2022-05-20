@@ -237,7 +237,6 @@ local function run_install(cache_folder, install_folder, lang, repo, with_sync, 
     repo.url = maybe_local_path
   end
 
-  -- compile_location only needed for typescript installs.
   local compile_location
   if from_local_path then
     compile_location = repo.url

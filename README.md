@@ -370,6 +370,7 @@ parser_config.zimbu = {
     -- optional entries:
     branch = "main", -- default branch in case of git repo if different from master
     generate_requires_npm = false, -- if stand-alone parser without npm dependencies
+    location = "tree-sitter-zimbu/zimbu", -- if the grammer files are in a subdirectory
     requires_generate_from_grammar = false, -- if folder contains pre-generated src/parser.c
   },
   filetype = "zu", -- if filetype does not match the parser name
